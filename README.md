@@ -7,21 +7,23 @@ The API implements a multi-step process to extract reviews:
 
 Browser Initialization
 
-Uses undetected-chromedriver to bypass anti-bot measures
-Runs Chrome in headless mode for efficiency
-Implements proper error handling and resource cleanup
+1) Uses undetected-chromedriver to bypass anti-bot measures
+
+2) Runs Chrome in headless mode for efficiency
+
+3)Implements proper error handling and resource cleanup
 
 
 Dynamic Selector Generation
 
-Leverages GPT-4 through LangChain to analyze page structure
-Automatically determines appropriate CSS/XPath selectors
-Adapts to different website layouts without manual configuration
+1) Leverages GPT-4 through LangChain to analyze page structure
+2) Automatically determines appropriate CSS/XPath selectors
+3) Adapts to different website layouts without manual configuration
 
 
 Review Extraction
 
-Implements pagination handling for complete data collection
-Extracts structured data including title, body, rating, and reviewer
-Includes robust error handling for individual review extraction
-Handles various rating formats and normalizes the data
+1) Implements pagination handling for complete data collection
+2) Extracts structured data including title, body, rating, and reviewer
+3) Includes robust error handling for individual review extraction
+4) Handles various rating formats and normalizes the data
