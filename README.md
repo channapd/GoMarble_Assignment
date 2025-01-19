@@ -2,7 +2,6 @@
 
 An intelligent web scraping API that uses GPT-4 to dynamically determine selectors and extract reviews from any review website. The system combines FastAPI, Selenium with undetected-chromedriver, and LangChain to create a robust and adaptable scraping solution.
 
-# Solution Approach
 
 The API implements a multi-step process to extract reviews:
 
